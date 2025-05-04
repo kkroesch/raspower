@@ -1369,6 +1369,286 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Elektuur:J-jumper"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 2.54 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "J-jumper"
+				(at 2.54 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "jumper; connecting link"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=1 2=2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "SPICE"
+				(at -2.54 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+					(hide yes)
+				)
+			)
+			(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Spice_Netlist_Enabled" "Y"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "J R jumper connecting link"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "J-jumper_0_3"
+				(polyline
+					(pts
+						(xy 0 0)
+					)
+					(stroke
+						(width -0.0508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "J-jumper_1_0"
+				(polyline
+					(pts
+						(xy -0.5842 1.9558) (xy -1.1684 1.3716)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5842 -3.1242) (xy -1.1684 -3.7084)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.762)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.762)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.5842 3.1242) (xy 1.1684 3.7084)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.5842 -1.9558) (xy 1.1684 -1.3716)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 1.7272)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.7272)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "J-jumper_1_1"
+				(polyline
+					(pts
+						(xy 0 -1.7272) (xy 0 1.7272)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "J-jumper_1_2"
+				(polyline
+					(pts
+						(xy 0 1.1176) (xy 0 1.7272)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.4064) (xy 0 0.4064)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.7272) (xy 0 -1.1176)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Elektuur:P-trim"
 			(pin_numbers
 				(hide yes)
@@ -2107,6 +2387,12 @@
 		(uuid "07148ea2-07d8-4465-9b69-079be5426513")
 	)
 	(junction
+		(at 143.51 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "324cdfdc-ffb9-44ea-989d-81e31929a72c")
+	)
+	(junction
 		(at 63.5 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2117,12 +2403,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "481d2ee6-1df5-404c-9006-4e42979fa339")
-	)
-	(junction
-		(at 91.44 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54fd8442-eea3-4a59-9c6f-713c577c4f5f")
 	)
 	(junction
 		(at 78.74 76.2)
@@ -2155,10 +2435,22 @@
 		(uuid "8fb04ae1-7651-410f-8d46-b5b9e7694672")
 	)
 	(junction
-		(at 142.24 95.25)
+		(at 149.86 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93558c32-6b1e-458a-a6d8-bcd13b8d28a2")
+	)
+	(junction
+		(at 143.51 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa1a3a6c-52cf-4b39-9a41-776b7179ac69")
+	)
+	(junction
+		(at 91.44 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aefca0ef-0b08-4ac6-8937-5be0da4208c4")
 	)
 	(junction
 		(at 71.12 95.25)
@@ -2198,6 +2490,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 83.82) (xy 143.51 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0acd12e2-f63f-41a0-927d-2d8cebb83dff")
+	)
+	(wire
+		(pts
 			(xy 125.73 81.28) (xy 134.62 81.28)
 		)
 		(stroke
@@ -2208,13 +2510,23 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 91.44) (xy 106.68 91.44)
+			(xy 109.22 91.44) (xy 106.68 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0c7e690f-1b04-4346-ba1a-eb8afaab67ac")
+	)
+	(wire
+		(pts
+			(xy 138.43 76.2) (xy 149.86 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ea3c910-872b-4e10-a8e4-f017b26cb5d7")
 	)
 	(wire
 		(pts
@@ -2228,7 +2540,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 81.28) (xy 144.78 81.28)
+			(xy 134.62 81.28) (xy 143.51 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2255,16 +2567,6 @@
 			(type default)
 		)
 		(uuid "2167871e-9f5f-4319-a146-f3dd2d7a34d5")
-	)
-	(wire
-		(pts
-			(xy 91.44 81.28) (xy 91.44 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "281b2f76-a651-4673-b383-5279f3f2a6b3")
 	)
 	(wire
 		(pts
@@ -2308,16 +2610,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 95.25) (xy 104.14 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e2baf95-bc2c-40b7-b661-0a2b0daaf283")
-	)
-	(wire
-		(pts
 			(xy 106.68 95.25) (xy 125.73 95.25)
 		)
 		(stroke
@@ -2338,7 +2630,27 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 76.2) (xy 142.24 95.25)
+			(xy 143.51 91.44) (xy 143.51 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b2efcb-ed13-4b3f-87b0-3096a84dbd33")
+	)
+	(wire
+		(pts
+			(xy 116.84 91.44) (xy 118.11 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4abc5449-d8b2-4e93-9d38-5ed7b1a2960e")
+	)
+	(wire
+		(pts
+			(xy 149.86 76.2) (xy 149.86 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2355,6 +2667,26 @@
 			(type default)
 		)
 		(uuid "6040338b-4256-4001-8506-93758c6cde51")
+	)
+	(wire
+		(pts
+			(xy 91.44 95.25) (xy 104.14 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66bf994f-d839-4708-8b6b-83934e37783f")
+	)
+	(wire
+		(pts
+			(xy 91.44 93.98) (xy 91.44 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67b2bb3f-952a-4e7d-bcc4-ae98f0401167")
 	)
 	(wire
 		(pts
@@ -2378,7 +2710,17 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 95.25) (xy 144.78 95.25)
+			(xy 91.44 81.28) (xy 91.44 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85bbc3c8-840e-407b-85f5-732404024a5a")
+	)
+	(wire
+		(pts
+			(xy 149.86 95.25) (xy 152.4 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2388,7 +2730,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 95.25) (xy 142.24 95.25)
+			(xy 134.62 95.25) (xy 143.51 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2415,6 +2757,16 @@
 			(type default)
 		)
 		(uuid "901c6e51-526e-44e6-8600-4c4af384c0c9")
+	)
+	(wire
+		(pts
+			(xy 143.51 81.28) (xy 152.4 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "961f408b-fe34-42e7-b3f2-a798e8a7eb45")
 	)
 	(wire
 		(pts
@@ -2468,16 +2820,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 76.2) (xy 138.43 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0034828-2cae-4a07-aaae-cccbed225996")
-	)
-	(wire
-		(pts
 			(xy 116.84 81.28) (xy 118.11 81.28)
 		)
 		(stroke
@@ -2528,13 +2870,23 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 83.82) (xy 144.78 95.25)
+			(xy 152.4 83.82) (xy 152.4 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e9fe4f33-130b-46cd-b123-7c169ebf8f49")
+	)
+	(wire
+		(pts
+			(xy 143.51 95.25) (xy 149.86 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4c8dc7b-e946-4fb0-a59e-8bd3b80fd49f")
 	)
 	(wire
 		(pts
@@ -2555,6 +2907,184 @@
 			(type default)
 		)
 		(uuid "fb637c66-12ef-4d2c-9872-99af7ab1f677")
+	)
+	(symbol
+		(lib_id "Diode:SS34")
+		(at 143.51 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04b93879-1911-414c-b4a5-4acc80e05567")
+		(property "Reference" "D4"
+			(at 140.462 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS34"
+			(at 144.272 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 139.065 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 3A Schottky Diode, SMA"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "05e9ac34-2dfa-467b-9ac4-0bb9ce5895f9")
+		)
+		(pin "1"
+			(uuid "6c5857cf-dce6-427b-882f-704fc4699b9d")
+		)
+		(instances
+			(project ""
+				(path "/06d2b7e6-f88e-42d4-814f-69f51484d787"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Elektuur:J-jumper")
+		(at 91.44 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13a8bf3c-b95c-497d-b096-bac46d3e2fe8")
+		(property "Reference" "J3"
+			(at 93.98 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "J-jumper"
+			(at 93.98 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 91.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "jumper; connecting link"
+			(at 91.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2"
+			(at 91.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 88.9 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 91.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Spice_Netlist_Enabled" "Y"
+			(at 93.98 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eaeebb26-3eef-4406-b499-f435eda5a24a")
+		)
+		(pin "1"
+			(uuid "a26fbe65-b6b2-408c-945d-a712d959e18d")
+		)
+		(instances
+			(project ""
+				(path "/06d2b7e6-f88e-42d4-814f-69f51484d787"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Elektuur:C")
@@ -2963,7 +3493,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 149.86 81.28 0)
+		(at 157.48 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2971,7 +3501,7 @@
 		(dnp no)
 		(uuid "8eb322dd-4476-421e-a46a-eddbc704b66b")
 		(property "Reference" "J2"
-			(at 148.59 79.248 0)
+			(at 156.21 79.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2980,7 +3510,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 146.05 85.598 0)
+			(at 153.67 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2989,7 +3519,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
-			(at 149.86 81.28 0)
+			(at 157.48 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2998,7 +3528,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 81.28 0)
+			(at 157.48 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3007,7 +3537,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 149.86 81.28 0)
+			(at 157.48 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3150,7 +3680,7 @@
 			)
 		)
 		(property "Value" "470µ"
-			(at 136.652 88.9 0)
+			(at 135.128 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3525,7 +4055,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 114.3 91.44 0)
+		(at 113.03 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3533,7 +4063,7 @@
 		(dnp no)
 		(uuid "e1965e8a-dd94-41d2-b1c6-57fb0fc40d27")
 		(property "Reference" "D3"
-			(at 117.602 92.456 0)
+			(at 116.332 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3541,7 +4071,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 112.7125 87.63 0)
+			(at 111.4425 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3550,7 +4080,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_Kingbright_AAA3528ESGCT"
-			(at 114.3 91.44 0)
+			(at 113.03 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3559,7 +4089,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 91.44 0)
+			(at 113.03 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3568,7 +4098,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 114.3 91.44 0)
+			(at 113.03 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3577,7 +4107,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 114.3 91.44 0)
+			(at 113.03 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
