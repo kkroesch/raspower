@@ -12,6 +12,8 @@
 *.0001.kicad_sch
 *.0001.kicad_pcb
 *.save
+*auto_saved_files*
+*.lck
 
 # 🔄 KiCad-generated cache/swap
 *-backups/
