@@ -1,0 +1,43 @@
+# ✨ KiCad project files to keep:
+# *.kicad_pro, *.kicad_sch, *.kicad_pcb, symbol/ & footprint/ if used
+
+# 💾 Backup & Autosave
+*.bak
+*.tmp
+*.autosave
+.autosave.kicad_sch
+.autosave.kicad_pcb
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.0001.kicad_sch
+*.0001.kicad_pcb
+*.save
+
+# 🔄 KiCad-generated cache/swap
+*-backups/
+.backup/
+__pycache__/
+
+# 🧱 3D model caches
+*.step
+*.stp
+*.wrl
+
+# 🔧 Project user settings (nicht versionsrelevant)
+*.kicad_prl
+*.kicad_wks
+*.kicad_dru
+fp-info-cache
+*.net
+*.xml
+*.csv
+
+# 💣 Fuse configs, logs, outfiles
+*.log
+*.gtmp
+*.gbrtmp
+*.tmp.*
+
+# 💬 OS/Misc
+.DS_Store
+Thumbs.db
