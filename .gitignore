@@ -4,7 +4,7 @@
 # 💾 Backup & Autosave
 *.bak
 *.tmp
-*.autosave
+*.autosave*
 .autosave.kicad_sch
 .autosave.kicad_pcb
 *.kicad_sch-bak
