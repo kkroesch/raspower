@@ -3,7 +3,12 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "06d2b7e6-f88e-42d4-814f-69f51484d787")
-	(paper "A4")
+	(paper "A5")
+	(title_block
+		(title "DC-Step-Down-Wandler für Raspberry Pi")
+		(date "2025-05-04")
+		(company "Kroesch.NET")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
